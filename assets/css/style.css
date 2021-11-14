@@ -4,3 +4,7 @@
     background-image: url('../images/hero-image.jpg') no-repeat center cneter;
 }
 
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
