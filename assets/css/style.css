@@ -1,10 +1,35 @@
-#hero-image {
-    height: 600px;
-    width: 100%;
-    background-image: url('../images/hero-image.jpg') no-repeat center center;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Libre+Baskerville&family=Poppins:ital,wght@1,300&display=swap');* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, san serif;
 }
 
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+nav {
+    display: flex;
+    width: 100%;
+    background: rgb(47, 0, 255);
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
 }
+
+nav .icon {
+    font-size: 35px;
+    font-weight: 800;
+    color: cornsilk;
+    cursor: pointer;
+
+}
+
+nav ol {
+    display: flex;
+    list-style: none;
+    margin: auto 0;
+}
+
+
+
+
 
