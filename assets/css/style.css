@@ -26,10 +26,13 @@ body{
     font-size: 330%;
     width: 100%;
     max-width: 1200px;
-    background-color: rgb(0, 0, 0 , .1);
-    margin: 40px auto;   
+    background-color: rgb(0, 0, 0 , .1);   
     text-align: center; 
-    padding-left: 550px
+    padding-left: 550px;
+    position: absolute;
+    display: flex;
+    
+
     
     
 
@@ -59,23 +62,33 @@ nav .icon{
 
 }
 
-nav ol{
+nav ul{
     display: flex;
     list-style-type: none;
     margin: auto 0;
 }
 
-nav ol li{
+nav ul li{
     margin: 0 20px;
 }
 
-nav ol li a{
+nav ul li a{
     color: rgb(0, 0, 0);
     font-size: 20px;
     letter-spacing: 1px;
     padding: 115 15px;
-    text-decoration-color: rgb(255, 0, 0);
+    text-decoration: none;
+    
 }
+
+nav a:hover{
+    border-bottom: 1px solid red;
+}
+
+.active{
+    border-bottom: 1px solid red;
+}
+
 
 .background{
     width: 100%;
