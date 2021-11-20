@@ -3,148 +3,155 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', san serif;
-
-}
-
-body, html{
-    width: auto;
-    min-height: 100%;
 }
 
 body{
-    font-family: 'poppins', san sarif;
-    font-size: 20px;
-    margin: 900;
-    color: rgb(255, 255, 255);
-    background: none;
-    
-    
-}
-
-#heading{
     width: 100%;
-    display: flex;
-    color: rgb(255, 0, 0);
-    font-size: 330%;
-    
-    max-width: 1200px;
-    background-color: rgb(0, 0, 0 , .1);   
-    text-align: center; 
-    position: relative;
-    margin: auto 0;
-    padding-left: 550px;
-}
-
-.projector{
-    width: 100%;
-    display: flex;
-    background-position: center;
-    background-size: cover;
-}
-
-.about-header{
-    display: flex;
-    text-align: center;
-    font-size: 50px;
-    position: relative;
-    color: white;
-    background-color: black;
-    padding-left: 600px;
-    margin: auto;
-}
-
-.my-hacks{
-    margin: auto;
-    text-align: center;
-    position: relative;
-    width: 100%;
-    display: flex;
-    padding-left: 550;
-    background-color: black;
-}
-
-.my-bg{
-    width: 100%;
-    display: flex;
-    height: 700px;
-    background-size: cover;
-    padding: auto;
-
-}
-
-h1, h2{
-    font-family: 'poppins', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+    height: auto;
+    background-color:black;
 }
 
 nav{
-    display: flex;
-    width: 100%;
-    background: rgb(64, 21, 255);
-    position: relative;
-    justify-content: space-between;
-    text-align: center;
-    padding: 0px 50px;
+display: flex;
+width: 100%;
+background: rgb(31, 7, 139);
+position: relative;
+justify-content: space-between;
+text-align: center;
+padding: 0px 50px;
 }
 
 nav .icon{
-    font-weight: 600;
-    font-size: 25px;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-
+font-weight: 600;
+font-size: 25px;
+color: rgb(255, 255, 255);
+cursor: pointer;
+text-align: center;
 }
 
 nav ul{
-    display: flex;
-    list-style-type: none;
-    margin: auto 0;
+width: 100%;
+display: flex;
+list-style-type: none;
+margin: 0px;
+text-align: center;
 }
 
 nav ul li{
-    margin: 0 20px;
+margin: 0 40px;
+padding: 0px;
 }
 
 nav ul li a{
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    letter-spacing: 1px;
-    padding: 115 15px;
-    text-decoration: none;
-    
+color: rgb(255, 255, 255);
+font-size: 20px;
+letter-spacing: 1px;
+padding: 115 5px;
+text-decoration: none;
 }
 
 nav a:hover{
-    border-bottom: 1px solid red;
+border-bottom: 1px solid red;
 }
 
 .active{
-    border-bottom: 1px solid red;
+border-bottom: 1px solid red;
 }
 
+.content-wrapper1{
+    width: 110%;
+    margin: auto;
+}
 
-.background{
+.content-wrapper1 img{
     width: 100%;
-    height: 900px;
-    background-image: url(../images/background.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-
+    height: auto;
+    background-size: cover;
 }
 
+.text-wrapper1{
+    width: 100%;
+    position: fixed;
+    margin-top: -70%;
+}
 
+.text-wrapper1 h1{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 5vw;
+    font-family: poppins, san serif;
+}
 
+.content-wrapper2{
+    width: 100%;
+    margin: auto
+}
 
+.content-wrapper2 img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
 
+.text-wrapper2{
+    width: 100%;
+    position: relative;
+    margin-top: -65%;
+    float: left;
+}
 
+.text-wrapper2 h1{
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+    font-family: poppins, san serif;
+}
 
+.content-wrapper4{
+    width: 110%;
+    margin: auto;
+}
 
+.content-wrapper4 img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
 
+.text-wrapper4{
+    width: 100%;
+    position: fixed;
+    margin-top: -80%;
+}
 
+.text-wrapper4 h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 5vw;
+    font-family: poppins, san serif;
+}
 
+.content-wrapper3{
+    width: 100%;
+    margin: auto;
+}
 
+.content-wrapper3 img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
 
+.text-wrapper3{
+    width: 100%;
+    position: fixed;
+    margin-top: -75%;
+}
+
+.text-wrapper3 h1{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 5vw;
+    font-family: poppins, san serif;
+}
 
