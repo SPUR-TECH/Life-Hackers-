@@ -59,7 +59,7 @@ border-bottom: 1px solid red;
 }
 
 .content-wrapper1{
-    width: 110%;
+    width: 100%;
     margin: auto;
 }
 
@@ -72,7 +72,7 @@ border-bottom: 1px solid red;
 .text-wrapper1{
     width: 100%;
     position: fixed;
-    margin-top: -70%;
+    margin-top: -65%;
 }
 
 .text-wrapper1 h1{
@@ -156,7 +156,7 @@ border-bottom: 1px solid red;
 }
 
 .container{
-    display: grid;
+    display: flex;
     grid-template-columns: 2fr 1fr;
     gap: 15px;
     align-items: flex-start;
@@ -164,13 +164,43 @@ border-bottom: 1px solid red;
 }
 
 .container .main-video{
+    width: auto;
+    display: flex;
     background-color: transparent;
     border-radius: 5px;
-    padding: 10px;
+    align-items: center;
 }
 
 .container .main-video .video{
     width: 100%;
     border-radius: 5px
+}
+
+.title{
+    color: white;
+}
+
+@media screen and (max-width: 750px){
+    nav{
+        display: block;
+        padding: 0;
+    }
+
+    nav ul li a{
+        text-align: center;
+        font-size: 12px;
+        white-space: 5px;
+    }
+    nav .icon{
+        display: inline-block;
+        padding: 15px 30px;
+    }
+}
+
+@media  screen and (max-width: 1000px) {
+    .container{
+        display: flex;
+        width: 100%;
+    }
 }
 
