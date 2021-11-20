@@ -155,3 +155,22 @@ border-bottom: 1px solid red;
     font-family: poppins, san serif;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    align-items: flex-start;
+    padding: 5px 5%;
+}
+
+.container .main-video{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container .main-video .video{
+    width: 100%;
+    border-radius: 5px
+}
+
