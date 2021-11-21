@@ -2,8 +2,7 @@
 
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0;   
 }
 
 body{
@@ -37,68 +36,59 @@ html{
 }
 
 .video-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;  
-    display: grid; 
-    border-color: crimson;
+    width: 100%;
+    padding-left: 100px;
+
 }
 
-.video-container .video{
-    height: 15rem;
-    width: 25rem;
-    margin: 2rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
-    overflow: hidden;
-    border-radius: 1rem;
-}
+
 
 nav{
-display: flex;
-width: 100%;
-background: rgb(31, 7, 139);
-position: relative;
-justify-content: space-between;
-text-align: center;
-padding: 0px 50px;
+    display: flex;
+    width: 100%;
+    background: rgb(31, 7, 139);
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 50px;
 }
 
 nav .icon{
-font-weight: 600;
-font-size: 25px;
-color: rgb(218, 208, 208);
-cursor: pointer;
-text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(218, 208, 208);
+    cursor: pointer;
+    text-align: center;
 
 }
 
 nav ul{
-width: 100%;
-display: flex;
-list-style-type: none;
-margin: 10px;
-text-align: center;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+    text-align: center;
 }
 
 nav ul li{
-margin: 0 40px;
-padding: 0px;
+    margin: 0 40px;
+    padding: 0px;
 }
 
 nav ul li a{
-color: rgb(218, 208, 208);
-font-size: 20px;
-letter-spacing: 1px;
-padding: 115 5px;
-text-decoration: none;
+    color: rgb(218, 208, 208);
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 115 5px;
+    text-decoration: none;
 }
 
 nav a:hover{
-border-bottom: 1px solid red;
+    border-bottom: 1px solid red;
 }
 
 .active{
-border-bottom: 1px solid red;
+    border-bottom: 1px solid red;
 }
 
 @media screen and (max-width: 750px){
@@ -119,3 +109,13 @@ border-bottom: 1px solid red;
         text-align: center;
     }
 
+@media screen and (max-width: 750px){
+    .container .heading{
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 750px){
+    .para{
+        font-size: 2rem;
+    }
+}
