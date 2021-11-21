@@ -3,12 +3,54 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     width: 100%;
-    height: auto;
-    background-color:black;
+    height: 100%;
+    background-color: rgb(50, 100, 102);
+}
+
+.para{
+    font-size: 3rem;
+    text-align: center;
+    margin: 250px;
+    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .5);
+}
+
+html{
+    font-size: 80%;
+    font-weight: 300;
+    color: rgb(218, 208, 208);
+}
+
+.container .heading{
+    font-size: 7rem;
+    margin: 2rem;
+    text-transform: capitalize;
+    color: rgb(150, 50, 50);
+    font-family: poppins, san serif;
+    letter-spacing: .2rem;
+    text-align: center;
+    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .5);
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  
+    display: grid; 
+    border-color: crimson;
+}
+
+.video-container .video{
+    height: 15rem;
+    width: 25rem;
+    margin: 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+    overflow: hidden;
+    border-radius: 1rem;
 }
 
 nav{
@@ -24,16 +66,17 @@ padding: 0px 50px;
 nav .icon{
 font-weight: 600;
 font-size: 25px;
-color: rgb(255, 255, 255);
+color: rgb(218, 208, 208);
 cursor: pointer;
 text-align: center;
+
 }
 
 nav ul{
 width: 100%;
 display: flex;
 list-style-type: none;
-margin: 0px;
+margin: 10px;
 text-align: center;
 }
 
@@ -43,7 +86,7 @@ padding: 0px;
 }
 
 nav ul li a{
-color: rgb(255, 255, 255);
+color: rgb(218, 208, 208);
 font-size: 20px;
 letter-spacing: 1px;
 padding: 115 5px;
@@ -58,153 +101,9 @@ border-bottom: 1px solid red;
 border-bottom: 1px solid red;
 }
 
-.content-wrapper1{
-    width: 100%;
-    margin: auto;
-}
-
-.content-wrapper1 img{
-    width: 100%;
-    height: auto;
-    background-size: cover;
-}
-
-.text-wrapper1{
-    width: 100%;
-    position: fixed;
-    margin-top: -65%;
-}
-
-.text-wrapper1 h1{
-    text-align: center;
-    color: rgb(255, 0, 0);
-    font-size: 5vw;
-    font-family: poppins, san serif;
-}
-
-.content-wrapper2{
-    width: 100%;
-    margin: auto
-}
-
-.content-wrapper2 img{
-    width: 100%;
-    height: auto;
-    background-size: cover;
-}
-
-.text-wrapper2{
-    width: 100%;
-    position: relative;
-    margin-top: -65%;
-    float: left;
-}
-
-.text-wrapper2 p{
-    font-size: 25px;
-    color: white;
-    padding: 10px ;
-    border:2px solid white;
-    margin: 250px;
-}
-
-.text-wrapper2 h1{
-    text-align: center;
-    color: white;
-    font-size: 5vw;
-    font-family: poppins, san serif;
-}
-
-.content-wrapper4{
-    width: 110%;
-    margin: auto;
-}
-
-.content-wrapper4 img{
-    width: 100%;
-    height: auto;
-    background-size: cover;
-}
-
-.text-wrapper4{
-    width: 100%;
-    position: fixed;
-    margin-top: -80%;
-}
-
-.text-wrapper4 h1{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 5vw;
-    font-family: poppins, san serif;
-}
-
-.content-wrapper3{
-    width: 100%;
-    margin: auto;
-}
-
-.content-wrapper3 img{
-    width: 100%;
-    height: auto;
-    background-size: cover;
-}
-
-.text-wrapper3{
-    width: 100%;
-    position: fixed;
-    margin-top: -75%;
-}
-
-.text-wrapper3 h1{
-    text-align: center;
-    color: rgb(255, 0, 0);
-    font-size: 5vw;
-    font-family: poppins, san serif;
-}
-
-.container{
-    display: grid;
-    grid-template-columns: 2fr 1f;
-    gap: 15px;
-    align-items: flex-start;
-    padding: 5px 5%;
-}
-
-.container .main-video{
-    width: 100%;
-    display: flex;
-    background-color: transparent;
-    border-radius: 5px;
-    align-items: center;
-}
-
-.container .main-video .video{
-    width: 100%;
-    border-radius: 5px
-}
-.container .video-list .vid video{
-    width: 100%;
-    border-radius: 5px;
-}
-
-.container .video-list .vid video{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    background: transparent;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
-    border:1px solid blue ;
-    cursor: pointer;
-}
-.title{
-    color: white;
-}
-
 @media screen and (max-width: 750px){
     nav{
+        width: 100%;
         display: block;
         padding: 0;
     }
@@ -217,26 +116,6 @@ border-bottom: 1px solid red;
     nav .icon{
         display: inline-block;
         padding: 15px 30px;
+        text-align: center;
     }
-}
-
-@media  screen and (max-width: 1000px) {
-    .container{
-        display: flex;
-        width: 100%;
-    }
-}
-
-@media  (max-widthL:991px) {
-    .container{
-        grid-template-columns: 1.5fr 1fr;
-        padding: 10px;
-    }    
-}
-
-@media  (max-widthL:768px) {
-    .container{
-        grid-template-columns: 1fr;
-    }    
-}
 
