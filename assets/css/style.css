@@ -228,15 +228,14 @@ nav a:hover{
     list-style: none;
 }
 
-.f-list a{
+.f-list li a{
     color: inherit;
-    display: inline-block;
     opacity: .5;
     text-decoration: none;
 }
 
 .f-list a:hover{
-    opacity: 1.9;
+    opacity: 1;
 }
 
 .follow{
@@ -248,6 +247,12 @@ nav a:hover{
     padding: 10px;
 }
 
+@media screen and (max-width: 2400px){
+    .sign-up-form {
+        height: 100%;   
+    }
+}
+
 @media screen and (max-width: 1200px){
     .para{
     font-size: 2rem;
@@ -255,7 +260,7 @@ nav a:hover{
     padding-right: 2.5rem;
     }
     .sign-up-form {
-        height: 800px;   
+        height: 100%;   
     }
 }
 
@@ -290,7 +295,7 @@ nav a:hover{
     }
 
     .sign-up-form {
-        height: 450px;
+        height: 100%;
     }
     .sign-up-form .sign-btn{
         padding: 1px;
