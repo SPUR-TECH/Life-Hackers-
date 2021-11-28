@@ -93,6 +93,17 @@ hr{
     margin-bottom: 5px;
 }
 
+.thankyou-form {
+    height: 450px;
+    width: 50%;
+    background-image: linear-gradient(rgb(50, 100, 102), black);
+    font-family: poppins, san-serif;
+    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .9);
+    padding: 4rem;
+    margin: 15% auto;
+    text-align: center;
+}
+
 .container .heading{
     font-size: 7rem;
     text-transform: capitalize;
@@ -307,7 +318,7 @@ nav a:hover{
     }
     .sign-up-form {
         height: 400px;
-        padding: 2rem;
+        padding: 1rem;
     }
     .sign-up-form .sign-btn{
         padding: 1px;
@@ -315,7 +326,13 @@ nav a:hover{
     .sign-up-form .input-box{
         padding: 2px;   
     }
+    
+    .thankyou-form {
+        height: 350px;
+        width: 80%;
+    }
 }
+
 @media  screen and (max-width: 600px){
     .container .heading{
         font-size: 4rem;
