@@ -1,22 +1,27 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# <b style="color: rgb(212, 32, 32);">LIFE</b> HACKERS<b style="color: rgb(212, 32, 32);">!</b>
 
-Welcome Scott Atkinson,
+## Welcome Reader,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is the section where you learn all about the page and the work that went into it.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## project mission:
 
-## Gitpod Reminders
+So <b style="color: rgb(212, 32, 32);">LIFE</b> HACKERS<b style="color: rgb(212, 32, 32);">!</b> is a website where people can come and watch video's about evryday tasks like packing, cleaning, building, making things and even survival techniques without the annoying adds. They can even sign up for up to date video's so they dont miss out on all the new stuff.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Site Author's mission:
 
-`python3 -m http.server`
+I built this site in a very simplistic way for ease of use with flowing colours throughout all pages and easy links to them, in the NAVBAR and also a the bottom of the page with links to Facebook, Twitter, Instagram and Youtube.
 
-A blue button should appear to click: _Make Public_,
+## Wireframes:
 
-Another blue button should appear to click: _Open Browser_.
+These are the wireframes that started the ball rolling. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- 
+- 
+-
+-
+
+
 
 A blue button should appear to click: _Make Public_,
 
