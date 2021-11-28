@@ -307,12 +307,13 @@ nav a:hover{
     }
     .sign-up-form {
         height: 400px;
+        padding: 2rem;
     }
     .sign-up-form .sign-btn{
         padding: 1px;
     }
     .sign-up-form .input-box{
-        padding: 2px;    
+        padding: 2px;   
     }
 }
 @media  screen and (max-width: 600px){
