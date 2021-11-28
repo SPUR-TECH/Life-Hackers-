@@ -290,7 +290,7 @@ nav a:hover{
 
     nav ul li a{
         font-size: 14px;
-        text-align: inherit;
+        text-align: center;
     
     }
     nav .icon{
@@ -344,4 +344,6 @@ nav a:hover{
         border: none;
         word-spacing: 0;
     }
+    nav{
+        padding: 0;
 }
