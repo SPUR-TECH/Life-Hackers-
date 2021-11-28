@@ -285,15 +285,15 @@ nav a:hover{
 @media screen and (max-width: 800px){
     nav{
         width: 100%;
-        display: block;    
+        display: inline-block;    
     }
 
     nav ul li a{
         font-size: 14px;
+        text-align: inherit;
     
     }
     nav .icon{
-        display: inline-block;
         padding: 15px 10px;
         text-align: center;
     }
@@ -337,4 +337,9 @@ nav a:hover{
     .container .heading{
         font-size: 4rem;
     }
+    nav ul li a{
+        font-size: 9px;
+        
+        
+        
 }
