@@ -16,7 +16,7 @@ I built this site in a very simplistic way for ease of use with flowing colours 
 
 These are the wireframes that started the ball rolling. 
 
-- 
+- ![Landing Page](assets/images/screenshot1.png)
 - 
 -
 -
