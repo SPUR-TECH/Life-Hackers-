@@ -16,10 +16,11 @@ I built this site in a very simplistic way for ease of use with flowing colours 
 
 These are the wireframes that started the ball rolling. 
 
-- ![Landing Page](assets/images/screenshot1.png)
-- 
--
--
+- [Landing Page](assets/images/screenshot1.png)
+- [About Page](assets/images/screenshot2.png)
+- [Sign up Page](assets/images/screenshot3.png)
+- [Thank you Page](assets/images/screenshot4.png)
+
 
 
 
