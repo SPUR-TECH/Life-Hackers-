@@ -79,14 +79,13 @@ html{
 
 button{
     border-radius: 10px;
-    padding: 7px;
+    padding: 5px;
     cursor: pointer;
     border: 2px solid black;
 }
 .sign-btn:hover{
     background-image: linear-gradient(rgb(40, 185, 190), black);
     color: white;
-
 }
 
 hr{
@@ -263,7 +262,14 @@ nav a:hover{
     .sign-up-form {
         height: 100%;   
     }
+    .input-box{
+    padding: 5px;
+    }
+    button{
+        border-radius: 10px;
+        padding: 3px;
 }
+    
 
 @media screen and (max-width: 800px){
     nav{
