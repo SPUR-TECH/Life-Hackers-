@@ -298,7 +298,7 @@ nav a:hover{
 @media  screen and (max-width: 800px){
     .container .heading{
         font-size: 4rem;
-    
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -313,5 +313,10 @@ nav a:hover{
     }
     .sign-up-form .input-box{
         padding: 2px;    
+    }
+}
+@media  screen and (max-width: 600px){
+    .container .heading{
+        font-size: 4rem;
     }
 }
