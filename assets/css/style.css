@@ -292,7 +292,13 @@ nav a:hover{
         padding-left: 3rem;
         padding-right: 3rem;
         font-size: 1.4rem;
-    }
+     }
+}
+
+@media  screen and (max-width: 800px){
+    .container .heading{
+        font-size: 4rem;
+    
 }
 
 @media screen and (max-width: 600px){
