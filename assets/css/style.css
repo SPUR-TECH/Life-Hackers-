@@ -260,10 +260,7 @@ nav a:hover{
     margin: 0;
 }
 
-@media screen and (max-width: 4000px){
-    .container{
-    height: 600px;
-}
+
 
 @media screen and (max-width: 2400px){
     .sign-up-form {
