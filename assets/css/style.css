@@ -127,6 +127,7 @@ hr{
 
 .video-container{
     padding-top: 4rem;
+    padding-bottom: 4rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -211,7 +212,7 @@ nav a:hover{
 }
 
 .footer{
-    width: 4000px;
+    width: 100%;
     background-color: black;
     padding: 50px;
 
@@ -376,8 +377,11 @@ nav a:hover{
         border: none;
         word-spacing: 0;
     }
+    body{
+        padding-right: 0;
+    }
     nav{
-        padding: 0;
+        padding: 5px;
     }
     .thankyou-form h1 {
         font-size: 20px;
