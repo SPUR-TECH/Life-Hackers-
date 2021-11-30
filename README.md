@@ -73,8 +73,15 @@ I've tinted the background of the copywright logo as to not have a problem with 
 
 The about page continues the flow of gradient colours, navbar and blends itno the footer. It contains an image of the author and a short pargraph of what the site is about.
 
-## Sign Up Page:
+## Sign up Page:
 
 ![](assets/images/screenshot-sign.png)
 
 The sign up page again continues the gradient colours, navbar and footer. The form has requirement to fill in so nothing will happen when you press submit too early until you put your details in then a nice thank you card will pop up. All boxes have placeholders and aria-labels for the impaired.
+
+
+## Thank you Page:
+
+![](assets/images/screenshot-thankyou.png)
+
+This is just a polite thank you card for signing with us for the newest videos.
