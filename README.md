@@ -1,4 +1,5 @@
 # <b style="color: rgb(212, 32, 32);">LIFE</b> HACKERS<b style="color: rgb(212, 32, 32);">!</b>
+https://spur-tech.github.io/Life-Hackers-/
 
 ## Welcome Reader,
 
@@ -6,11 +7,12 @@ This is the section where you learn all about the page and the work that went in
 
 ## project mission:
 
-So <b style="color: rgb(212, 32, 32);">LIFE</b> HACKERS<b style="color: rgb(212, 32, 32);">!</b> is a website where people can come and watch video's about evryday tasks like packing, cleaning, building, making things and even survival techniques without the annoying adds. They can even sign up for up to date video's so they dont miss out on all the new stuff.
+So <b style="color: rgb(212, 32, 32);">LIFE</b> HACKERS<b style="color: rgb(212, 32, 32);">!</b> is a website where people can come and watch videos about evryday tasks like building, making things, packing, cleaning, and even survival techniques without the annoying adds. They can even sign up for up to date videos so they dont miss out on all the new stuff.
 
 ## Site Author's mission:
 
 I built this site in a very simplistic way for ease of use with flowing colours throughout all pages and easy links to them, in the NAVBAR and also a the bottom of the page with links to Facebook, Twitter, Instagram and Youtube.
+I've even added a copywright with my SPUR-<b style="color: rgb(212, 32, 32);">TECH </b>Web Designs logo in the footer to look professional.
 
 ## Wireframes:
 
@@ -24,9 +26,11 @@ These are the wireframes that started the ball rolling.
 
 
 
-A blue button should appear to click: _Make Public_,
+##  Screen shot of the site and it's responsive abilities
 
-Another blue button should appear to click: _Open Browser_.
+
+
+
 
 In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 

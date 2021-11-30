@@ -55,7 +55,7 @@ html, body{
 }
 
 .sign-up-form{
-    height: 750px;
+    height: 100%;
     width: 50%;
     background-image: linear-gradient(rgb(50, 100, 102), black);
     font-family: poppins, san-serif;
