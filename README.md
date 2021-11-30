@@ -57,7 +57,7 @@ As you can see it's fully responsive right across all devicesand the video grid 
 
 The landing page has a beautiful green gradient background with a bright bold heading and sub-heading for even the impaired to read easily. Scrolling down to the footer that's consistant through all the pages. The video grid is very simple to use just hover over to enlarge or select full screen to get the full experience. All videos are muted until you select audio and you have full control of the video playing ability.
 
-## footer:
+## Footer:
 
 ![](assets/images/screenshot-footer.png)
 
@@ -73,4 +73,8 @@ I've tinted the background of the copywright logo as to not have a problem with 
 
 The about page continues the flow of gradient colours, navbar and blends itno the footer. It contains an image of the author and a short pargraph of what the site is about.
 
-##
+## Sign Up Page:
+
+![](assets/images/screenshot-sign.png)
+
+The sign up page again continues the gradient colours, navbar and footer. The form has requirement to fill in so nothing will happen when you press submit too early until you put your details in then a nice thank you card will pop up. All boxes have placeholders and aria-labels for the impaired.
