@@ -113,11 +113,15 @@ I also tested for accessibility on https://wave.webaim.org/ with only a nudge to
 
 # Bugs and Fixes:
 
-Wow so I had a few issues with attaching the video box to a certain part of the background image then try to make it responsive and stay in the same place without crushing or warping so I opted for the gradient coloured background which I'm very pleased with and had alot compliments for.
+ - Wow so I had a few issues with attaching the video box to a certain part of the background image then try to make it responsive and stay in the same place without crushing or warping so I opted for the gradient coloured background which I'm very pleased with and had alot compliments for.
 
-My next bug was dealing with padding, margins and borders and getting strange things happen so it was a case of just trial and error until perfect.
+ - My next bug was dealing with padding, margins and borders and getting strange things happen so it was a case of just trial and error until perfect.
 
-Responsiveness was the next mission playing around with media queries until I'm happy with re-sizing right across the board.
+ - Responsiveness was the next mission playing around with media queries until I'm happy with re-sizing right across the board.
+
+ - I then checked with https://wave.webaim.org/ to asses colour contrast and adjusted accordingly.
+
+ - Then added ARIA-Labels to my form page on the same site.  
 
 # Credits:
 
