@@ -102,14 +102,16 @@ This is just a polite thank you card for signing with us for the newest videos.
 
 # Testing:
 
-First line of testing was to make sure links to each page worked in the NAVBAR and footer and also the submit button links to thank you page.
+ - First line of testing was to make sure links to each page worked in the NAVBAR and footer and also the submit button links to thank you page.
 
-Then tested responsive effects on my phone, Ipad, laptop and pc all worked efficiently.
+ - Then tested responsive effects on my phone, Ipad, laptop and pc all worked efficiently.
 
-My testing for my css was performed on https://jigsaw.w3.org/css-validator/validator
+ - My testing for my css was performed on https://jigsaw.w3.org/css-validator/validator
 and my testing for my html was performed on https://validator.w3.org/ after correcting everything it promted me on I now have no errors or warnings at all.
 
-I also tested for accessibility on https://wave.webaim.org/ with only a nudge to add closed captions to videos but this caused more issues as it added tiny writnging in the corner which flagged up more warnings and effected the grid box so I added aria-labels to them.
+ - I also tested for accessibility on https://wave.webaim.org/ with only a nudge to add closed captions to videos but this caused more issues as it added tiny writnging in the corner which flagged up more warnings and effected the grid box so I added aria-labels to them.
+
+ - I then put my site up on Slack for scrutiny and recieved a lot of compliments.
 
 # Bugs and Fixes:
 
@@ -127,7 +129,7 @@ I also tested for accessibility on https://wave.webaim.org/ with only a nudge to
 
 This leads me perfectly into the next section.
 
-I would like to say thank you to everyone on slack and espeacially DAISY_MENTOR and STEPHEN_5P_LEAD they have always been the fisrt to react to any issues and always ready to help I hope they see this metion of them they have been amazing.
+I would like to say thank you to everyone on Slack and espeacially DAISY_MENTOR and STEPHEN_5P_LEAD they have always been the fisrt to react to any issues and always ready to help I hope they see this metion of them they have been amazing.
 
 Also a hat tip to my mentor Jack_mentor such a nice guy.
 
@@ -151,6 +153,7 @@ https://www.youtube.com/
 
 https://github.com/Code-Institute-Solutions/readme-template
 
+
 # Deployment:
 
 This site was developed in Gitpod, committed and pushed to Github, and deployed on GitHub Pages.
@@ -160,7 +163,11 @@ This site was developed in Gitpod, committed and pushed to Github, and deployed 
 - Log in to Github then go to the repository you would like to deploy.
 - Click on Settings in the toolbar.
 - Click on Pages.
-- Click on the Branch dropdown, and select Main.
+- Click on the Branch in the dropdown menu, and select Main.
 - Click on Save.
 - Click on the URL to navigate to the live site.
+
+## Site Deployed........
+
+ 
 
