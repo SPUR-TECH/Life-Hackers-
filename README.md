@@ -12,7 +12,7 @@ These videos will surely improve the way you think when you take on your next ta
 
 ## Site Author's mission:
 
-I built this site for people to escape the annoying adds in youtube. It's built in a very simplistic way for ease of use with flowing colours throughout all pages and easy links to them, in the NAVBAR and also a the bottom of the page with links to social media sites like Facebook, Twitter, Instagram and Youtube.
+I built this site for people to escape the annoying adds in youtube. It's built in a very simplistic way for ease of use with flowing colours throughout all pages and easy links to them, in the NAVBAR and also at the bottom of the page with links to social media sites like Facebook, Twitter, Instagram and Youtube.
 I've added a copywright with my SPUR-<b style="color: rgb(212, 32, 32);">TECH </b>Web Designs logo in the footer.
 
 ## Wireframes:
@@ -58,19 +58,19 @@ All files are appropriately named with no capitalization or spaces and all in co
 
 All fonts were used from https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free and they were poppins and san serif
 
-1. Thev NAVBAR has a blue gradient with striking red and white accents to really make it stand out for ease of use.
+1. The NAVBAR has a blue gradient with striking red and white accents to really make it stand out for ease of use.
 2. A hover over effect to show which one your about to press.
 3. The link will stay red to show which page is active.
-4. The gradient colour is consistant through-out.
+4. The gradient colour is consistent through-out.
 5. Completely responsive on all devices.
-6. This NAVBAR is pressent on all pages linking to the Home Page, About Page and Sign Up Page for ease of use.
+6. This NAVBAR is present on all pages linking to the Home Page, About Page and Sign Up Page for ease of use.
 
 # The landing page:
 
 
 ![](assets/images/screenshot-landing.png)
 
-The landing page has a beautiful green gradient background with a bright bold heading and sub-heading for even the impaired to read easily. Scrolling down to the footer that's consistant through all the pages. The video grid is very simple to use and has a nice shadow casting for a 3d effect. Just hover over the box to enlarge or select full screen to get the full experience. All videos are muted until you select audio and you have full control of the video playing ability.
+The landing page has a beautiful green gradient background with a bright bold heading and sub-heading for even the impaired to read easily. Scrolling down to the footer that's consistent through all the pages. The video grid is very simple to use and has a nice shadow casting for a 3d effect. Just hover over the box to enlarge or select full screen to get the full experience. All videos are muted until you select audio and you have full control of the video playing ability.
 
 ## Footer:
 
@@ -85,13 +85,13 @@ I've tinted the background of the copywright logo in a grey colour as to not hav
 
 ![](assets/images/screenshot-about.png)
 
-The about page continues the flow of gradient colours, NAVBAR and blends into the footer. It contains an image of the author with a caption in the corner for screen readers and a short pargraph of what the site is about underneath.
+The about page continues the flow of gradient colours, NAVBAR and blends into the footer. It contains an image of the author with a caption in the corner for screen readers and a short paragraph of what the site is about underneath.
 
 ## Sign up Page:
 
 ![](assets/images/screenshot-sign.png)
 
-The sign up page again continues the gradient colours, NAVBAR and footer. The form has requirements to fill in so you are promted when you press submit too early to put your details in then a nice thank you card will pop up. All boxes have placeholders and aria-labels for the impaired.
+The sign up page again continues the gradient colours, NAVBAR and footer. The form has requirements to fill in so you are prompted when you press submit too early to put your details in then a nice thank you card will pop up. All boxes have placeholders and aria-labels for the impaired.
 
 
 ## Thank you Page:
@@ -107,15 +107,17 @@ This is just a polite thank you card for signing with us for the newest videos.
  - Then tested responsive effects on my phone, Ipad, laptop and pc all worked efficiently.
 
  - My testing for my css was performed on https://jigsaw.w3.org/css-validator/validator
-and my testing for my html was performed on https://validator.w3.org/ after correcting everything it promted me on I now have no errors or warnings at all.
+and my testing for my html was performed on https://validator.w3.org/ after correcting everything it prompted me on I now have no errors or warnings at all.
 
  - I also tested for accessibility on https://wave.webaim.org/ with only a nudge to add closed captions to videos but this caused more issues as it added tiny writnging in the corner which flagged up more warnings and effected the grid box so I added aria-labels to them.
 
- - I then put my site up on Slack for scrutiny and recieved a lot of compliments.
+ - I then put my site up on Slack for scrutiny and received a lot of compliments.
+
+ - spell check README.md on https://www.online-spellcheck.com/
 
 # Bugs and Fixes:
 
- - Wow so I had a few issues with attaching the video box to a certain part of the background image then try to make it responsive and stay in the same place without crushing or warping so I opted for the gradient coloured background which I'm very pleased with and had alot compliments for.
+ - Wow so I had a few issues with attaching the video box to a certain part of the background image then try to make it responsive and stay in the same place without crushing or warping so I opted for the gradient coloured background which I'm very pleased with and had a lot compliments for.
 
  - My next bug was dealing with padding, margins and borders and getting strange things happen so it was a case of just trial and error until perfect.
 
@@ -124,12 +126,14 @@ and my testing for my html was performed on https://validator.w3.org/ after corr
  - I then checked with https://wave.webaim.org/ to asses colour contrast and adjusted accordingly.
 
  - Then added ARIA-Labels to my form page on the same site.  
+  
+ 
 
 # Credits:
 
 This leads me perfectly into the next section.
 
-I would like to say thank you to everyone on Slack and espeacially DAISY_MENTOR and STEPHEN_5P_LEAD they have always been the fisrt to react to any issues and always ready to help I hope they see this metion of them they have been amazing.
+I would like to say thank you to everyone on Slack and espeacially DAISY_MENTOR and STEPHEN_5P_LEAD they have always been the first to react to any issues and always ready to help I hope they see this mention of them they have been amazing.
 
 Also a hat tip to my mentor Jack_mentor such a nice guy.
 
@@ -168,6 +172,3 @@ This site was developed in Gitpod, committed and pushed to Github, and deployed 
 - Click on the URL to navigate to the live site.
 
 ## Site Deployed........
-
- 
-
