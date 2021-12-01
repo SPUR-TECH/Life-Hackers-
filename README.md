@@ -38,6 +38,20 @@ As you can see it's fully responsive right across all devices and the video grid
 
 <hr>
 
+# Organisation:
+
+All files are appropriately named with no capitalization or spaces and all in corrisponding folders.
+
+- Assets
+- css
+- style.css
+- images
+- idex.html
+- about.html
+- signup.html
+- thankyou.html
+- README.md
+
 ## features:
 
 ![](assets/images/screenshot-navbar.png)
