@@ -216,6 +216,10 @@ hr {
     padding-bottom: 20px;
 }
 
+.content-wrapper .name {
+    text-align: center;
+}
+
 .footer {
     width: 100%;
     background-color: black;
