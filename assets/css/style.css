@@ -2,25 +2,25 @@
 
 * {
     margin: 0;
-    padding: 0;  
-    box-sizing: border-box; 
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgb(50, 100, 102), black); 
-    text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .9); 
-    
-    
+    background-image: linear-gradient(rgb(50, 100, 102), black);
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .9);
+
+
 }
 
-h1{
+h1 {
     font-family: poppins, san-serif;
     text-align: center;
 }
 
-nav{
+nav {
     display: flex;
     width: 100%;
     background: rgb(20, 22, 126);
@@ -31,7 +31,7 @@ nav{
     padding: 10px 50px;
 }
 
-nav .icon{
+nav .icon {
     font-weight: 600;
     font-size: 25px;
     color: rgb(218, 208, 208);
@@ -40,19 +40,19 @@ nav .icon{
 
 }
 
-nav ul{
+nav ul {
     width: 100%;
     display: flex;
     list-style-type: none;
     justify-content: right;
 }
 
-nav ul li{
+nav ul li {
     margin: 10px 20px;
     padding: 0;
 }
 
-nav ul li a{
+nav ul li a {
     color: rgb(218, 208, 208);
     font-size: 20px;
     letter-spacing: 1px;
@@ -60,15 +60,15 @@ nav ul li a{
     text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
     color: rgb(212, 32, 32);
 }
 
-.active{
+.active {
     color: rgb(212, 32, 32);
 }
 
-#round-container{
+#round-container {
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -77,16 +77,16 @@ nav a:hover{
     border-width: 2px;
     margin: 0 auto;
     margin-bottom: 20px;
-    
+
 }
 
-#img-container{
+#img-container {
     background: url(../images/img.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
-.para{
+.para {
     font-size: 3rem;
     text-align: center;
     padding-right: 20rem;
@@ -96,13 +96,14 @@ nav a:hover{
     font-family: poppins, san-serif;
 }
 
-html, body{
+html,
+body {
     font-size: 80%;
     font-weight: 300;
     color: rgb(218, 208, 208);
 }
 
-.sign-up-form{
+.sign-up-form {
     height: 100%;
     width: 50%;
     background-image: linear-gradient(rgb(50, 100, 102), black);
@@ -113,11 +114,11 @@ html, body{
     text-align: center;
 }
 
-.sign-up-form h1{
+.sign-up-form h1 {
     margin-bottom: 3rem;
 }
 
-.input-box{
+.input-box {
     padding: 10px;
     border-radius: 20px;
     width: 100%;
@@ -125,18 +126,19 @@ html, body{
     cursor: pointer;
 }
 
-button{
+button {
     border-radius: 10px;
     padding: 5px;
     cursor: pointer;
     border: 2px solid black;
 }
-.sign-btn:hover{
+
+.sign-btn:hover {
     background-image: linear-gradient(rgb(40, 185, 190), black);
     color: white;
 }
 
-hr{
+hr {
     margin-top: 10px;
     margin-bottom: 5px;
 }
@@ -157,7 +159,7 @@ hr{
     padding: 30px;
 }
 
-.container .heading{
+.container .heading {
     font-size: 4rem;
     text-transform: capitalize;
     color: rgb(212, 32, 32);
@@ -167,13 +169,13 @@ hr{
     text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .9);
 }
 
-.container{
+.container {
     width: 100%;
     height: 100%;
     background-image: linear-gradient(rgb(50, 100, 102), black);
 }
 
-.video-container{
+.video-container {
     padding-top: 4rem;
     padding-bottom: 4rem;
     display: flex;
@@ -181,16 +183,16 @@ hr{
     flex-wrap: wrap;
 }
 
-.video-container .video{
+.video-container .video {
     height: 15rem;
     width: 25rem;
     margin: 2rem;
-    box-shadow:.6rem .6rem rgba(0, 0, 0, .6);
+    box-shadow: .6rem .6rem rgba(0, 0, 0, .6);
     overflow: hidden;
     border-radius: 1rem;
 }
 
-.video-container .video iframe{
+.video-container .video iframe {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -199,11 +201,11 @@ hr{
     cursor: pointer;
 }
 
-.video-container .video:hover{
+.video-container .video:hover {
     transform: scale(1.4);
 }
 
-.content-wrapper{
+.content-wrapper {
     background-image: linear-gradient(rgb(50, 100, 102), black);
     height: 100rem;
     width: 100%;
@@ -211,56 +213,57 @@ hr{
     padding-bottom: 20px;
 }
 
-.footer{
+.footer {
     width: 100%;
     background-color: black;
     padding: 20px;
 
 }
 
-.footer .social{
+.footer .social {
     color: rgb(50, 100, 102);
     font-size: 30px;
     text-align: center;
 }
 
-.footer .social a{
+.footer .social a {
     color: inherit;
     margin: 0 8px;
     opacity: .5;
 }
 
-.footer .social a:hover{
+.footer .social a:hover {
     opacity: 1;
 }
 
-.f-list{
+.f-list {
     text-align: center;
     font-size: 20px;
     color: rgb(50, 100, 102);
     list-style: none;
 }
 
-.f-list li a{
+.f-list li a {
     color: inherit;
     opacity: .5;
     text-decoration: none;
 }
 
-.f-list a:hover{
+.f-list a:hover {
     opacity: 1;
 }
 
-.follow{
+.follow {
     text-align: center;
     padding: 10px;
     font-size: 20px;
 }
 
-.copywrite-top{
+.copywrite-top {
     text-align: center;
 }
-.copywrite{
+
+.copywrite {
     background-color: rgb(15, 15, 15);
     text-align: center;
     padding: 10px;
@@ -268,143 +271,163 @@ hr{
     font-size: 20px;
 }
 
-@media screen and (max-width: 2400px){
+@media screen and (max-width: 2400px) {
     .sign-up-form {
-        height: 100%;   
+        height: 100%;
     }
 }
 
-@media screen and (max-width: 1230px){
+@media screen and (max-width: 1230px) {
     .thankyou-form h1 {
         font-size: 40px;
         padding: 30px;
     }
-    .para{
-    font-size: 2rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+
+    .para {
+        font-size: 2rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
+
     .sign-up-form {
-        height: 100%;   
+        height: 100%;
     }
-    .input-box{
-    padding: 5px;
+
+    .input-box {
+        padding: 5px;
     }
-    button{
+
+    button {
         border-radius: 10px;
         padding: 3px;
     }
 
-    .container .heading{
+    .container .heading {
         font-size: 2.5rem;
     }
+
     .thankyou-form {
         height: 350px;
         width: 60%;
     }
 }
-    
 
-@media screen and (max-width: 870px){
+
+@media screen and (max-width: 870px) {
     .thankyou-form h1 {
         font-size: 30px;
         padding: 20px;
     }
-    nav{
+
+    nav {
         width: 100%;
-        display: inline-block;    
+        display: inline-block;
     }
 
-    nav ul li a{
+    nav ul li a {
         font-size: 1.5rem;
         text-align: center;
-    
+
     }
-    nav .icon{
+
+    nav .icon {
         padding: 15px 10px;
         text-align: center;
     }
 
-    nav ul{
+    nav ul {
         justify-content: center;
     }
 }
 
-@media screen and (max-width: 800px){
-    .para{
+@media screen and (max-width: 800px) {
+    .para {
         padding-left: 3rem;
         padding-right: 3rem;
         font-size: 1.4rem;
-     }
-     .thankyou-form {
+    }
+
+    .thankyou-form {
         height: 350px;
         width: 80%;
     }
 }
 
-@media  screen and (max-width: 800px){
-    .container .heading{
+@media screen and (max-width: 800px) {
+    .container .heading {
         font-size: 2rem;
     }
 }
 
-@media screen and (max-width: 640px){
-    .container .heading{
+@media screen and (max-width: 640px) {
+    .container .heading {
         font-size: 1.5rem;
         padding: 30px;
     }
 }
 
-@media screen and (max-width: 600px){
-    .sign-up-form h1{
+@media screen and (max-width: 600px) {
+    .sign-up-form h1 {
         font-size: 80%;
     }
+
     .sign-up-form {
         height: 400px;
         padding: 1rem;
     }
-    .sign-up-form .sign-btn{
+
+    .sign-up-form .sign-btn {
         padding: 1px;
     }
-    .sign-up-form .input-box{
-        padding: 2px;   
+
+    .sign-up-form .input-box {
+        padding: 2px;
     }
-    
+
     .thankyou-form {
         height: 350px;
         width: 80%;
     }
-    .container .heading{
+
+    .container .heading {
         font-size: 1.5rem;
         padding: 10px;
     }
 }
 
-@media  screen and (max-width: 520px){
-    .container .heading{
+@media screen and (max-width: 520px) {
+    .container .heading {
         padding: 10px;
     }
-    nav ul li a{
+
+    nav ul li a {
         font-size: 1.5rem;
         padding: 0;
         margin: 0;
         border: none;
         word-spacing: 0;
     }
-    nav{
+
+    nav {
         padding: 5px;
     }
+
     .thankyou-form h1 {
         font-size: 20px;
-        padding: 20px;    
+        padding: 20px;
     }
 }
-@media  screen and (max-width: 520px){
-    .copywrite{
-    background-color: rgb(15, 15, 15);
-    text-align: center;
-    padding: 10px;
-    margin: 0;
-    font-size: 15px;
+
+@media screen and (max-width: 520px) {
+    .copywrite {
+        background-color: rgb(15, 15, 15);
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+        font-size: 15px;
     }
+}
+
+b {
+    color: rgb(230, 24, 24);
 }
