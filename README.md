@@ -126,7 +126,9 @@ This is just a polite thank you card for signing with us for the newest videos.
 
  - I then checked with https://wave.webaim.org/ to asses colour contrast and adjusted accordingly.
 
- - Then added ARIA-Labels to my form page on the same site.  
+ - Then added ARIA-Labels to my form page on the same site. 
+
+ - Floating footer on Sign up page was dealt with by wrapping in a div and set min height to 100vh and footer margin auto. 
   
  
 
