@@ -20,6 +20,54 @@ h1{
     text-align: center;
 }
 
+nav{
+    display: flex;
+    width: 100%;
+    background: rgb(20, 22, 126);
+    background-image: linear-gradient(rgb(20, 22, 126), black);
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 50px;
+}
+
+nav .icon{
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(218, 208, 208);
+    cursor: pointer;
+    text-align: center;
+
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+}
+
+nav ul li{
+    margin: 10px 20px;
+    padding: 0;
+}
+
+nav ul li a{
+    color: rgb(218, 208, 208);
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 115px 5px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(212, 32, 32);
+}
+
+.active{
+    color: rgb(212, 32, 32);
+}
+
 #round-container{
     width: 300px;
     height: 300px;
@@ -155,54 +203,6 @@ hr{
     transform: scale(1.4);
 }
 
-nav{
-    display: flex;
-    width: 100%;
-    background: rgb(20, 22, 126);
-    background-image: linear-gradient(rgb(20, 22, 126), black);
-    position: relative;
-    justify-content: space-between;
-    text-align: center;
-    padding: 0px 50px;
-}
-
-nav .icon{
-    font-weight: 600;
-    font-size: 25px;
-    color: rgb(218, 208, 208);
-    cursor: pointer;
-    text-align: center;
-
-}
-
-nav ul{
-    width: 100%;
-    display: flex;
-    list-style-type: none;
-    text-align: center;
-}
-
-nav ul li{
-    margin: 10px 20px;
-    padding: 0;
-}
-
-nav ul li a{
-    color: rgb(218, 208, 208);
-    font-size: 20px;
-    letter-spacing: 1px;
-    padding: 115px 5px;
-    text-decoration: none;
-}
-
-nav a:hover{
-    color: rgb(212, 32, 32);
-}
-
-.active{
-    color: rgb(212, 32, 32);
-}
-
 .content-wrapper{
     background-image: linear-gradient(rgb(50, 100, 102), black);
     height: 100rem;
@@ -316,13 +316,17 @@ nav a:hover{
     }
 
     nav ul li a{
-        font-size: 14px;
+        font-size: 1.5rem;
         text-align: center;
     
     }
     nav .icon{
         padding: 15px 10px;
         text-align: center;
+    }
+
+    nav ul{
+        justify-content: center;
     }
 }
 
@@ -341,6 +345,13 @@ nav a:hover{
 @media  screen and (max-width: 800px){
     .container .heading{
         font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .container .heading{
+        font-size: 2rem;
+        padding: 30px;
     }
 }
 
@@ -363,11 +374,15 @@ nav a:hover{
         height: 350px;
         width: 80%;
     }
+    .container .heading{
+        font-size: 1.5rem;
+        padding: 10px;
+    }
 }
 
 @media  screen and (max-width: 520px){
     .container .heading{
-        font-size: 2rem;
+        padding: 10px;
     }
     nav ul li a{
         font-size: 1.5rem;
