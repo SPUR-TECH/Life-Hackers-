@@ -54,9 +54,9 @@ All files are appropriately named with no capitalization or spaces and all in co
 
 ## features:
 
-![](assets/images/screenshot-navbar.png)
-
 All fonts were used from https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free and they were poppins and san serif
+
+![](assets/images/screenshot-navbar.png)
 
 1. The NAVBAR has a blue gradient with striking red and white accents to really make it stand out for ease of use.
 2. A hover over effect to show which one your about to press.
