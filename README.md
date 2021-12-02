@@ -7,13 +7,13 @@ This is the section where you learn all about the page and the work that went in
 
 ## Project mission:
 
-So <b style="color: rgb(212, 32, 32);">LIFE</b> HACKERS<b style="color: rgb(212, 32, 32);">!</b> is a website where you can come and watch videos about evreyday tasks like building, making things, packing, cleaning, and even survival techniques without the annoying adds. You can even sign up for up to date videos so you don't miss out on all the new stuff.
+So <b style="color: rgb(212, 32, 32);">LIFE</b> HACKERS<b style="color: rgb(212, 32, 32);">!</b> is a website where you can come and watch videos about everyday tasks like building, making things, packing, cleaning, and even survival techniques without the annoying adds. You can even sign up for up to date videos so you don't miss out on all the new stuff.
 These videos will surely improve the way you think when you take on your next task.
 
 ## Site Author's mission:
 
 I built this site for people to escape the annoying adds in youtube. It's built in a very simplistic way for ease of use with flowing colours throughout all pages and easy links to them, in the NAVBAR and also at the bottom of the page with links to social media sites like Facebook, Twitter, Instagram and Youtube.
-I've added a copywright with my SPUR-<b style="color: rgb(212, 32, 32);">TECH </b>Web Designs logo in the footer.
+I've added a copyright with my SPUR-<b style="color: rgb(212, 32, 32);">TECH </b>Web Designs logo in the footer.
 
 ## Wireframes:
 
@@ -38,9 +38,9 @@ As you can see it's fully responsive right across all devices and the video grid
 
 <hr>
 
-# Organisation:
+# Organization:
 
-All files are appropriately named with no capitalization or spaces and all in corrisponding folders.
+All files are appropriately named with no capitalization or spaces and all in corresponding folders.
 
 - Assets
 - css
@@ -76,9 +76,9 @@ The landing page has a beautiful green gradient background with a bright bold he
 
 ![](assets/images/screenshot-footer.png)
 
-The footer consist of a black background to allow the white to really pop and links to follow on social media sites like Facebook, Twitter, Instagram and Youtube. for added easiness I've added the links to the other pages so you dont have to scroll back up.
+The footer consist of a black background to allow the white to really pop and links to follow on social media sites like Facebook, Twitter, Instagram and Youtube. for added easiness I've added the links to the other pages so you don't have to scroll back up.
 I've faded out the links a little so when you hover over they light up in the beautiful green background colour.
-I've tinted the background of the copywright logo in a grey colour as to not have any problems with seeing the red part and also looks a little more designer. 
+I've tinted the background of the copyright logo in a grey colour as to not have any problems with seeing the red part and also looks a little more designer. 
 
 
 ## About Page:
@@ -107,9 +107,10 @@ This is just a polite thank you card for signing with us for the newest videos.
  - Then tested responsive effects on my phone, Ipad, laptop and pc all worked efficiently.
 
  - My testing for my css was performed on https://jigsaw.w3.org/css-validator/validator
-and my testing for my html was performed on https://validator.w3.org/ after correcting everything it prompted me on I now have no errors or warnings at all.
 
- - I also tested for accessibility on https://wave.webaim.org/ with only a nudge to add closed captions to videos but this caused more issues as it added tiny writnging in the corner which flagged up more warnings and effected the grid box so I added aria-labels to them.
+ - My testing for my html was performed on https://validator.w3.org/ after correcting everything it prompted me on I now have no errors or warnings at all.
+
+ - I also tested for accessibility on https://wave.webaim.org/ with only a nudge to add closed captions to videos but this caused more issues as it added tiny writing in the corner which flagged up more warnings and effected the grid box so I added aria-labels to them.
 
  - I then put my site up on Slack for scrutiny and received a lot of compliments.
 
@@ -133,9 +134,9 @@ and my testing for my html was performed on https://validator.w3.org/ after corr
 
 This leads me perfectly into the next section.
 
-I would like to say thank you to everyone on Slack and espeacially DAISY_MENTOR and STEPHEN_5P_LEAD they have always been the first to react to any issues and always ready to help I hope they see this mention of them they have been amazing.
+I would like to say thank you to everyone on Slack and especially DAISY_MENTOR and STEPHEN_5P_LEAD they have always been the first to react to any issues and always ready to help I hope they see this mention of them they have been amazing.
 
-Also a hat tip to my mentor Jack_mentor such a nice guy.
+Also a hat tip to my mentor Jack_mentor such a nice guy and very helpful with how to use Visual Studio Code and adding extensions.
 
 The videos used are all from Youtube.
 
