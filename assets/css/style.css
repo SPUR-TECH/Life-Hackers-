@@ -89,6 +89,22 @@ nav a:hover {
     border-radius: 50%;
 }
 
+.content-wrapper {
+    background-image: linear-gradient(rgb(50, 100, 102), black);
+    height: 100rem;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#img-container h3 {
+    text-align: bottom;
+}
+
+.content-wrapper .name {
+    text-align: right;
+}
+
 .para {
     font-size: 3rem;
     text-align: center;
@@ -104,6 +120,11 @@ body {
     font-size: 80%;
     font-weight: 300;
     color: rgb(218, 208, 208);
+    min-height: 100vh;
+}
+
+.sign-page {
+    min-height: 100vh;
 }
 
 .sign-up-form {
@@ -208,23 +229,11 @@ hr {
     transform: scale(1.4);
 }
 
-.content-wrapper {
-    background-image: linear-gradient(rgb(50, 100, 102), black);
-    height: 100rem;
-    width: 100%;
-    padding-top: 40px;
-    padding-bottom: 20px;
-}
-
-.content-wrapper .name {
-    text-align: center;
-}
-
 .footer {
     width: 100%;
     background-color: black;
     padding: 20px;
-
+    margin-top: auto;
 }
 
 .footer .social {
@@ -319,7 +328,6 @@ hr {
     }
 }
 
-
 @media screen and (max-width: 870px) {
     .thankyou-form h1 {
         font-size: 30px;
@@ -379,7 +387,7 @@ hr {
     }
 
     .sign-up-form {
-        height: 400px;
+        height: 100%;
         padding: 1rem;
     }
 
