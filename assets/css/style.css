@@ -168,7 +168,7 @@ hr {
 }
 
 .thankyou-form {
-    height: 450px;
+    height: 100%;
     width: 50%;
     background-image: linear-gradient(rgb(50, 100, 102), black);
     font-family: poppins, san-serif;
@@ -290,6 +290,7 @@ hr {
 @media screen and (max-width: 2400px) {
     .sign-up-form {
         height: 100%;
+        font-size: 20px;
     }
 }
 
@@ -307,6 +308,7 @@ hr {
 
     .sign-up-form {
         height: 100%;
+        font-size: 20px;
     }
 
     .input-box {
@@ -323,7 +325,7 @@ hr {
     }
 
     .thankyou-form {
-        height: 350px;
+        height: 100%;
         width: 60%;
     }
 }
@@ -363,7 +365,7 @@ hr {
     }
 
     .thankyou-form {
-        height: 350px;
+        height: 100%;
         width: 80%;
     }
 }
@@ -371,6 +373,12 @@ hr {
 @media screen and (max-width: 800px) {
     .container .heading {
         font-size: 2rem;
+    }
+
+    .sign-up-form {
+        height: 100%;
+        width: 80%;
+        font-size: 20px;
     }
 }
 
@@ -383,12 +391,13 @@ hr {
 
 @media screen and (max-width: 600px) {
     .sign-up-form h1 {
-        font-size: 80%;
+        font-size: 40px;
     }
 
     .sign-up-form {
         height: 100%;
-        padding: 1rem;
+        width: 80%;
+
     }
 
     .sign-up-form .sign-btn {
@@ -400,7 +409,7 @@ hr {
     }
 
     .thankyou-form {
-        height: 350px;
+        height: 100%;
         width: 80%;
     }
 
@@ -415,8 +424,12 @@ hr {
         padding: 10px;
     }
 
+    .sign-up-form h1 {
+        font-size: 10px;
+    }
+
     nav ul li a {
-        font-size: 1.4rem;
+        font-size: 14px;
         padding: 0;
         margin: 0;
         border: none;
@@ -444,6 +457,10 @@ hr {
 
     nav ul {
         justify-content: center;
-        font-size: 1.4rem;
+        font-size: 12px;
+    }
+
+    .sign-up-form h1 {
+        font-size: 20px;
     }
 }
