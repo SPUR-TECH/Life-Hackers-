@@ -358,6 +358,12 @@ hr {
 }
 
 @media screen and (max-width: 800px) {
+    .video-container .video {
+        height: 17rem;
+        width: 35rem;
+        margin: 2rem;
+    }
+
     .para {
         padding-left: 3rem;
         padding-right: 3rem;
@@ -368,9 +374,7 @@ hr {
         height: 100%;
         width: 80%;
     }
-}
 
-@media screen and (max-width: 800px) {
     .container .heading {
         font-size: 2rem;
     }
