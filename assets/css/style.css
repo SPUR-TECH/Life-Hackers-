@@ -208,12 +208,42 @@ hr {
 }
 
 .video-container .video {
-    height: 15rem;
+    position: relative;
+    height: 12rem;
     width: 25rem;
     margin: 2rem;
     box-shadow: 1.3rem 1.3rem 2.3rem rgba(0, 0, 0);
     overflow: hidden;
     border-radius: 1rem;
+}
+
+.video-container .video img {
+    width: 100%;
+    height: 3000%;
+    object-fit: cover;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#iframe-title {
+    position: absolute;
+    z-index: 100;
+    top: 15%;
+    left: 15%;
+    font-size: 20px;
+    font-weight: 200;
+    text-shadow: none;
+    color: white;
+}
+
+#three-dots {
+    position: absolute;
+    line-height: 5px;
+    z-index: 100;
+    top: 15%;
+    right: 10%;
+
 }
 
 .video-container .video iframe {
@@ -466,5 +496,27 @@ hr {
 
     .sign-up-form h1 {
         font-size: 20px;
+    }
+
+    @media screen and (max-width: 520px) {
+        .video-container .video {
+            height: 14rem;
+            width: 30rem;
+            margin: 1rem;
+        }
+    }
+
+    @media screen and (max-width: 380px) {
+        .video-container .video {
+            height: 9rem;
+            width: 20rem;
+        }
+    }
+
+    @media screen and (max-width: 250px) {
+        .video-container .video {
+            height: 7rem;
+            width: 15rem;
+        }
     }
 }
