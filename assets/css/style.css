@@ -248,11 +248,13 @@ hr {
 
 #three-dots {
     position: absolute;
-    line-height: 5px;
+    line-height: 6px;
     z-index: 100;
     top: 15%;
     right: 10%;
-
+    font-size: 25px;
+    text-shadow: none;
+    color: white;
 }
 
 .video-container .video iframe {
